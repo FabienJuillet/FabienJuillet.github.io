@@ -1,0 +1,2138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<BOOMERANG>
+	<Name> MTA </Name>
+	<MasseTotale>0.030</MasseTotale>
+	<Element num="1">
+		<Masse>0.00125</Masse>
+		<Corde>0.0131</Corde>
+		<Surface>0.0001</Surface>
+		<PolarName>Classique</PolarName>
+		<Center>
+			<X>-0.0955</X>
+			<Y>-0.0529</Y>
+			<Z>0.0000</Z>
+		</Center>
+		<VecCenterBA>
+			<X>0.0000</X>
+			<Y>1.0000</Y>
+			<Z>0.0000</Z>
+		</VecCenterBA>
+		<VecSurface>
+			<X>0.0</X>
+			<Y>0.0</Y>
+			<Z>-1.0</Z>
+		</VecSurface>
+	</Element>
+	<Element num="2">
+		<Masse>0.00125</Masse>
+		<Corde>0.0329</Corde>
+		<Surface>0.0002</Surface>
+		<PolarName>Classique</PolarName>
+		<Center>
+			<X>-0.0875</X>
+			<Y>-0.0484</Y>
+			<Z>0.0000</Z>
+		</Center>
+		<VecCenterBA>
+			<X>0.0000</X>
+			<Y>1.0000</Y>
+			<Z>0.0000</Z>
+		</VecCenterBA>
+		<VecSurface>
+			<X>0.0</X>
+			<Y>0.0</Y>
+			<Z>-1.0</Z>
+		</VecSurface>
+	</Element>
+	<Element num="3">
+		<Masse>0.00125</Masse>
+		<Corde>0.0355</Corde>
+		<Surface>0.0007</Surface>
+		<PolarName>Classique</PolarName>
+		<Center>
+			<X>-0.0748</X>
+			<Y>-0.0467</Y>
+			<Z>0.0000</Z>
+		</Center>
+		<VecCenterBA>
+			<X>0.0000</X>
+			<Y>1.0000</Y>
+			<Z>0.0000</Z>
+		</VecCenterBA>
+		<VecSurface>
+			<X>0.0</X>
+			<Y>0.0</Y>
+			<Z>-1.0</Z>
+		</VecSurface>
+	</Element>
+	<Element num="4">
+		<Masse>0.00125</Masse>
+		<Corde>0.0362</Corde>
+		<Surface>0.0010</Surface>
+		<PolarName>Classique</PolarName>
+		<Center>
+			<X>-0.0528</X>
+			<Y>-0.0475</Y>
+			<Z>0.0000</Z>
+		</Center>
+		<VecCenterBA>
+			<X>0.0000</X>
+			<Y>1.0000</Y>
+			<Z>0.0000</Z>
+		</VecCenterBA>
+		<VecSurface>
+			<X>0.0</X>
+			<Y>0.0</Y>
+			<Z>-1.0</Z>
+		</VecSurface>
+	</Element>
+	<Element num="5">
+		<Masse>0.00125</Masse>
+		<Corde>0.0355</Corde>
+		<Surface>0.0009</Surface>
+		<PolarName>Classique</PolarName>
+		<Center>
+			<X>-0.0247</X>
+			<Y>-0.0465</Y>
+			<Z>0.0000</Z>
+		</Center>
+		<VecCenterBA>
+			<X>0.0000</X>
+			<Y>1.0000</Y>
+			<Z>0.0000</Z>
+		</VecCenterBA>
+		<VecSurface>
+			<X>0.0</X>
+			<Y>0.0</Y>
+			<Z>-1.0</Z>
+		</VecSurface>
+	</Element>
+	<Element num="6">
+		<Masse>0.00125</Masse>
+		<Corde>0.0355</Corde>
+		<Surface>0.0009</Surface>
+		<PolarName>Classique</PolarName>
+		<Center>
+			<X>0.0000</X>
+			<Y>-0.0487</Y>
+			<Z>0.0000</Z>
+		</Center>
+		<VecCenterBA>
+			<X>0.0000</X>
+			<Y>1.0000</Y>
+			<Z>0.0000</Z>
+		</VecCenterBA>
+		<VecSurface>
+			<X>0.0</X>
+			<Y>0.0</Y>
+			<Z>-1.0</Z>
+		</VecSurface>
+	</Element>
+	<Element num="7">
+		<Masse>0.00125</Masse>
+		<Corde>0.0342</Corde>
+		<Surface>0.0009</Surface>
+		<PolarName>Classique</PolarName>
+		<Center>
+			<X>0.0276</X>
+			<Y>-0.0478</Y>
+			<Z>0.0000</Z>
+		</Center>
+		<VecCenterBA>
+			<X>0.0000</X>
+			<Y>1.0000</Y>
+			<Z>0.0000</Z>
+		</VecCenterBA>
+		<VecSurface>
+			<X>0.0</X>
+			<Y>0.0</Y>
+			<Z>-1.0</Z>
+		</VecSurface>
+	</Element>
+	<Element num="8">
+		<Masse>0.00125</Masse>
+		<Corde>0.0342</Corde>
+		<Surface>0.0009</Surface>
+		<PolarName>Classique</PolarName>
+		<Center>
+			<X>0.0554</X>
+			<Y>-0.0465</Y>
+			<Z>0.0000</Z>
+		</Center>
+		<VecCenterBA>
+			<X>-0.1040</X>
+			<Y>0.9940</Y>
+			<Z>0.0000</Z>
+		</VecCenterBA>
+		<VecSurface>
+			<X>0.0</X>
+			<Y>0.0</Y>
+			<Z>-1.0</Z>
+		</VecSurface>
+	</Element>
+	<Element num="9">
+		<Masse>0.00125</Masse>
+		<Corde>0.0342</Corde>
+		<Surface>0.0009</Surface>
+		<PolarName>Classique</PolarName>
+		<Center>
+			<X>0.0797</X>
+			<Y>-0.0461</Y>
+			<Z>0.0000</Z>
+		</Center>
+		<VecCenterBA>
+			<X>-0.1040</X>
+			<Y>0.9940</Y>
+			<Z>0.0000</Z>
+		</VecCenterBA>
+		<VecSurface>
+			<X>0.0</X>
+			<Y>0.0</Y>
+			<Z>-1.0</Z>
+		</VecSurface>
+	</Element>
+	<Element num="10">
+		<Masse>0.00125</Masse>
+		<Corde>0.0349</Corde>
+		<Surface>0.0004</Surface>
+		<PolarName>Classique</PolarName>
+		<Center>
+			<X>0.0997</X>
+			<Y>-0.0444</Y>
+			<Z>0.0000</Z>
+		</Center>
+		<VecCenterBA>
+			<X>-0.3260</X>
+			<Y>0.9460</Y>
+			<Z>0.0000</Z>
+		</VecCenterBA>
+		<VecSurface>
+			<X>0.0</X>
+			<Y>0.0</Y>
+			<Z>-1.0</Z>
+		</VecSurface>
+	</Element>
+	<Element num="11">
+		<Masse>0.00125</Masse>
+		<Corde>0.0368</Corde>
+		<Surface>0.0007</Surface>
+		<PolarName>Classique</PolarName>
+		<Center>
+			<X>0.1129</X>
+			<Y>-0.0400</Y>
+			<Z>0.0000</Z>
+		</Center>
+		<VecCenterBA>
+			<X>0.7370</X>
+			<Y>-0.6760</Y>
+			<Z>0.0000</Z>
+		</VecCenterBA>
+		<VecSurface>
+			<X>0.0</X>
+			<Y>0.0</Y>
+			<Z>-1.0</Z>
+		</VecSurface>
+	</Element>
+	<Element num="12">
+		<Masse>0.00125</Masse>
+		<Corde>0.0342</Corde>
+		<Surface>0.0003</Surface>
+		<PolarName>Classique</PolarName>
+		<Center>
+			<X>0.1200</X>
+			<Y>-0.0300</Y>
+			<Z>0.0000</Z>
+		</Center>
+		<VecCenterBA>
+			<X>0.9270</X>
+			<Y>-0.3750</Y>
+			<Z>0.0000</Z>
+		</VecCenterBA>
+		<VecSurface>
+			<X>0.0</X>
+			<Y>0.0</Y>
+			<Z>-1.0</Z>
+		</VecSurface>
+	</Element>
+	<Element num="13">
+		<Masse>0.00125</Masse>
+		<Corde>0.0329</Corde>
+		<Surface>0.0005</Surface>
+		<PolarName>Classique</PolarName>
+		<Center>
+			<X>0.1264</X>
+			<Y>-0.0178</Y>
+			<Z>0.0000</Z>
+		</Center>
+		<VecCenterBA>
+			<X>0.9610</X>
+			<Y>-0.2760</Y>
+			<Z>0.0000</Z>
+		</VecCenterBA>
+		<VecSurface>
+			<X>0.0</X>
+			<Y>0.0</Y>
+			<Z>-1.0</Z>
+		</VecSurface>
+	</Element>
+	<Element num="14">
+		<Masse>0.00125</Masse>
+		<Corde>0.0296</Corde>
+		<Surface>0.0008</Surface>
+		<PolarName>Classique</PolarName>
+		<Center>
+			<X>0.1329</X>
+			<Y>0.0000</Y>
+			<Z>0.0000</Z>
+		</Center>
+		<VecCenterBA>
+			<X>0.9890</X>
+			<Y>-0.1480</Y>
+			<Z>0.0000</Z>
+		</VecCenterBA>
+		<VecSurface>
+			<X>0.0</X>
+			<Y>0.0</Y>
+			<Z>-1.0</Z>
+		</VecSurface>
+	</Element>
+	<Element num="15">
+		<Masse>0.00125</Masse>
+		<Corde>0.0302</Corde>
+		<Surface>0.0008</Surface>
+		<PolarName>Classique</PolarName>
+		<Center>
+			<X>0.1395</X>
+			<Y>0.0271</Y>
+			<Z>0.0000</Z>
+		</Center>
+		<VecCenterBA>
+			<X>0.9945</X>
+			<Y>-0.1045</Y>
+			<Z>0.0000</Z>
+		</VecCenterBA>
+		<VecSurface>
+			<X>0.0</X>
+			<Y>0.0</Y>
+			<Z>-1.0</Z>
+		</VecSurface>
+	</Element>
+	<Element num="16">
+		<Masse>0.00125</Masse>
+		<Corde>0.0315</Corde>
+		<Surface>0.0008</Surface>
+		<PolarName>Classique</PolarName>
+		<Center>
+			<X>0.1400</X>
+			<Y>0.0538</Y>
+			<Z>0.0000</Z>
+		</Center>
+		<VecCenterBA>
+			<X>0.9954</X>
+			<Y>-0.0958</Y>
+			<Z>0.0000</Z>
+		</VecCenterBA>
+		<VecSurface>
+			<X>0.0</X>
+			<Y>0.0</Y>
+			<Z>-1.0</Z>
+		</VecSurface>
+	</Element>
+	<Element num="17">
+		<Masse>0.00125</Masse>
+		<Corde>0.0329</Corde>
+		<Surface>0.0009</Surface>
+		<PolarName>Classique</PolarName>
+		<Center>
+			<X>0.1432</X>
+			<Y>0.0810</Y>
+			<Z>0.0000</Z>
+		</Center>
+		<VecCenterBA>
+			<X>0.9954</X>
+			<Y>-0.0958</Y>
+			<Z>0.0000</Z>
+		</VecCenterBA>
+		<VecSurface>
+			<X>0.0</X>
+			<Y>0.0</Y>
+			<Z>-1.0</Z>
+		</VecSurface>
+	</Element>
+	<Element num="18">
+		<Masse>0.00125</Masse>
+		<Corde>0.0342</Corde>
+		<Surface>0.0009</Surface>
+		<PolarName>Classique</PolarName>
+		<Center>
+			<X>0.1450</X>
+			<Y>0.1093</Y>
+			<Z>0.0000</Z>
+		</Center>
+		<VecCenterBA>
+			<X>0.9954</X>
+			<Y>-0.0958</Y>
+			<Z>0.0000</Z>
+		</VecCenterBA>
+		<VecSurface>
+			<X>0.0</X>
+			<Y>0.0</Y>
+			<Z>-1.0</Z>
+		</VecSurface>
+	</Element>
+	<Element num="19">
+		<Masse>0.00125</Masse>
+		<Corde>0.0355</Corde>
+		<Surface>0.0009</Surface>
+		<PolarName>Classique</PolarName>
+		<Center>
+			<X>0.1453</X>
+			<Y>0.1355</Y>
+			<Z>0.0000</Z>
+		</Center>
+		<VecCenterBA>
+			<X>0.9954</X>
+			<Y>-0.0958</Y>
+			<Z>0.0000</Z>
+		</VecCenterBA>
+		<VecSurface>
+			<X>0.0</X>
+			<Y>0.0</Y>
+			<Z>-1.0</Z>
+		</VecSurface>
+	</Element>
+	<Element num="20">
+		<Masse>0.00125</Masse>
+		<Corde>0.0375</Corde>
+		<Surface>0.0010</Surface>
+		<PolarName>Classique</PolarName>
+		<Center>
+			<X>0.1470</X>
+			<Y>0.1633</Y>
+			<Z>0.0000</Z>
+		</Center>
+		<VecCenterBA>
+			<X>0.9954</X>
+			<Y>-0.0958</Y>
+			<Z>0.0000</Z>
+		</VecCenterBA>
+		<VecSurface>
+			<X>0.0</X>
+			<Y>0.0</Y>
+			<Z>-1.0</Z>
+		</VecSurface>
+	</Element>
+	<Element num="21">
+		<Masse>0.00125</Masse>
+		<Corde>0.0401</Corde>
+		<Surface>0.0011</Surface>
+		<PolarName>Classique</PolarName>
+		<Center>
+			<X>0.1524</X>
+			<Y>0.1882</Y>
+			<Z>0.0000</Z>
+		</Center>
+		<VecCenterBA>
+			<X>0.9954</X>
+			<Y>-0.0958</Y>
+			<Z>0.0000</Z>
+		</VecCenterBA>
+		<VecSurface>
+			<X>0.0</X>
+			<Y>0.0</Y>
+			<Z>-1.0</Z>
+		</VecSurface>
+	</Element>
+	<Element num="22">
+		<Masse>0.00125</Masse>
+		<Corde>0.0427</Corde>
+		<Surface>0.0011</Surface>
+		<PolarName>Classique</PolarName>
+		<Center>
+			<X>0.1563</X>
+			<Y>0.2150</Y>
+			<Z>0.0000</Z>
+		</Center>
+		<VecCenterBA>
+			<X>0.9954</X>
+			<Y>-0.0958</Y>
+			<Z>0.0000</Z>
+		</VecCenterBA>
+		<VecSurface>
+			<X>0.0</X>
+			<Y>0.0</Y>
+			<Z>-1.0</Z>
+		</VecSurface>
+	</Element>
+	<Element num="23">
+		<Masse>0.00125</Masse>
+		<Corde>0.0434</Corde>
+		<Surface>0.0011</Surface>
+		<PolarName>Classique</PolarName>
+		<Center>
+			<X>0.1590</X>
+			<Y>0.2403</Y>
+			<Z>0.0000</Z>
+		</Center>
+		<VecCenterBA>
+			<X>0.9954</X>
+			<Y>-0.0958</Y>
+			<Z>0.0000</Z>
+		</VecCenterBA>
+		<VecSurface>
+			<X>0.0</X>
+			<Y>0.0</Y>
+			<Z>-1.0</Z>
+		</VecSurface>
+	</Element>
+	<Element num="24">
+		<Masse>0.00125</Masse>
+		<Corde>0.0421</Corde>
+		<Surface>0.0008</Surface>
+		<PolarName>Classique</PolarName>
+		<Center>
+			<X>0.1609</X>
+			<Y>0.2625</Y>
+			<Z>0.0000</Z>
+		</Center>
+		<VecCenterBA>
+			<X>0.9954</X>
+			<Y>-0.0958</Y>
+			<Z>0.0000</Z>
+		</VecCenterBA>
+		<VecSurface>
+			<X>0.0</X>
+			<Y>0.0</Y>
+			<Z>-1.0</Z>
+		</VecSurface>
+	</Element>
+
+	<Polar>
+		<Name>Classique</Name>
+		
+		<Angle>-180.00</Angle>
+		<Cd>0.006967</Cd>
+		<Cl>0.217806</Cl>
+
+		<Angle>-179.00</Angle>
+		<Cd>0.008964</Cd>
+		<Cl>0.261367</Cl>
+
+		<Angle>-178.00</Angle>
+		<Cd>0.012828</Cd>
+		<Cl>0.304928</Cl>
+
+		<Angle>-177.00</Angle>
+		<Cd>0.018558</Cd>
+		<Cl>0.341656</Cl>
+
+		<Angle>-176.00</Angle>
+		<Cd>0.026155</Cd>
+		<Cl>0.341656</Cl>
+
+		<Angle>-175.00</Angle>
+		<Cd>0.035618</Cd>
+		<Cl>0.341656</Cl>
+
+		<Angle>-174.00</Angle>
+		<Cd>0.046947</Cd>
+		<Cl>0.334715</Cl>
+
+		<Angle>-173.00</Angle>
+		<Cd>0.060143</Cd>
+		<Cl>0.327773</Cl>
+
+		<Angle>-172.00</Angle>
+		<Cd>0.075206</Cd>
+		<Cl>0.320832</Cl>
+
+		<Angle>-171.00</Angle>
+		<Cd>0.092135</Cd>
+		<Cl>0.313890</Cl>
+
+		<Angle>-170.00</Angle>
+		<Cd>0.110931</Cd>
+		<Cl>0.306949</Cl>
+
+		<Angle>-169.00</Angle>
+		<Cd>0.122272</Cd>
+		<Cl>0.321489</Cl>
+
+		<Angle>-168.00</Angle>
+		<Cd>0.133961</Cd>
+		<Cl>0.335317</Cl>
+
+		<Angle>-167.00</Angle>
+		<Cd>0.145974</Cd>
+		<Cl>0.348437</Cl>
+
+		<Angle>-166.00</Angle>
+		<Cd>0.158287</Cd>
+		<Cl>0.360856</Cl>
+
+		<Angle>-165.00</Angle>
+		<Cd>0.170877</Cd>
+		<Cl>0.372579</Cl>
+
+		<Angle>-164.00</Angle>
+		<Cd>0.183720</Cd>
+		<Cl>0.383615</Cl>
+
+		<Angle>-163.00</Angle>
+		<Cd>0.196794</Cd>
+		<Cl>0.393970</Cl>
+
+		<Angle>-162.00</Angle>
+		<Cd>0.210080</Cd>
+		<Cl>0.403650</Cl>
+
+		<Angle>-161.00</Angle>
+		<Cd>0.223555</Cd>
+		<Cl>0.412663</Cl>
+
+		<Angle>-160.00</Angle>
+		<Cd>0.237199</Cd>
+		<Cl>0.421016</Cl>
+
+		<Angle>-159.00</Angle>
+		<Cd>0.250993</Cd>
+		<Cl>0.428717</Cl>
+
+		<Angle>-158.00</Angle>
+		<Cd>0.264917</Cd>
+		<Cl>0.435773</Cl>
+
+		<Angle>-157.00</Angle>
+		<Cd>0.278954</Cd>
+		<Cl>0.442193</Cl>
+
+		<Angle>-156.00</Angle>
+		<Cd>0.293084</Cd>
+		<Cl>0.447983</Cl>
+
+		<Angle>-155.00</Angle>
+		<Cd>0.307290</Cd>
+		<Cl>0.453153</Cl>
+
+		<Angle>-154.00</Angle>
+		<Cd>0.321555</Cd>
+		<Cl>0.457709</Cl>
+
+		<Angle>-153.00</Angle>
+		<Cd>0.335863</Cd>
+		<Cl>0.461662</Cl>
+
+		<Angle>-152.00</Angle>
+		<Cd>0.350196</Cd>
+		<Cl>0.465018</Cl>
+
+		<Angle>-151.00</Angle>
+		<Cd>0.364540</Cd>
+		<Cl>0.467787</Cl>
+
+		<Angle>-150.00</Angle>
+		<Cd>0.378878</Cd>
+		<Cl>0.469977</Cl>
+
+		<Angle>-149.00</Angle>
+		<Cd>0.393197</Cd>
+		<Cl>0.471597</Cl>
+
+		<Angle>-148.00</Angle>
+		<Cd>0.407481</Cd>
+		<Cl>0.472656</Cl>
+
+		<Angle>-147.00</Angle>
+		<Cd>0.421717</Cd>
+		<Cl>0.473163</Cl>
+
+		<Angle>-146.00</Angle>
+		<Cd>0.435890</Cd>
+		<Cl>0.473127</Cl>
+
+		<Angle>-145.00</Angle>
+		<Cd>0.449988</Cd>
+		<Cl>0.472557</Cl>
+
+		<Angle>-144.00</Angle>
+		<Cd>0.463998</Cd>
+		<Cl>0.471462</Cl>
+
+		<Angle>-143.00</Angle>
+		<Cd>0.477907</Cd>
+		<Cl>0.469852</Cl>
+
+		<Angle>-142.00</Angle>
+		<Cd>0.491702</Cd>
+		<Cl>0.467735</Cl>
+
+		<Angle>-141.00</Angle>
+		<Cd>0.505372</Cd>
+		<Cl>0.465122</Cl>
+
+		<Angle>-140.00</Angle>
+		<Cd>0.518906</Cd>
+		<Cl>0.462022</Cl>
+
+		<Angle>-139.00</Angle>
+		<Cd>0.532293</Cd>
+		<Cl>0.458444</Cl>
+
+		<Angle>-138.00</Angle>
+		<Cd>0.545520</Cd>
+		<Cl>0.454399</Cl>
+
+		<Angle>-137.00</Angle>
+		<Cd>0.558579</Cd>
+		<Cl>0.449896</Cl>
+
+		<Angle>-136.00</Angle>
+		<Cd>0.571459</Cd>
+		<Cl>0.444945</Cl>
+
+		<Angle>-135.00</Angle>
+		<Cd>0.584150</Cd>
+		<Cl>0.439555</Cl>
+
+		<Angle>-134.00</Angle>
+		<Cd>0.596641</Cd>
+		<Cl>0.433737</Cl>
+
+		<Angle>-133.00</Angle>
+		<Cd>0.608926</Cd>
+		<Cl>0.427501</Cl>
+
+		<Angle>-132.00</Angle>
+		<Cd>0.620993</Cd>
+		<Cl>0.420857</Cl>
+
+		<Angle>-131.00</Angle>
+		<Cd>0.632835</Cd>
+		<Cl>0.413814</Cl>
+
+		<Angle>-130.00</Angle>
+		<Cd>0.644443</Cd>
+		<Cl>0.406383</Cl>
+
+		<Angle>-129.00</Angle>
+		<Cd>0.655809</Cd>
+		<Cl>0.398574</Cl>
+
+		<Angle>-128.00</Angle>
+		<Cd>0.666925</Cd>
+		<Cl>0.390399</Cl>
+
+		<Angle>-127.00</Angle>
+		<Cd>0.677783</Cd>
+		<Cl>0.381865</Cl>
+
+		<Angle>-126.00</Angle>
+		<Cd>0.688377</Cd>
+		<Cl>0.372985</Cl>
+
+		<Angle>-125.00</Angle>
+		<Cd>0.698699</Cd>
+		<Cl>0.363769</Cl>
+
+		<Angle>-124.00</Angle>
+		<Cd>0.708742</Cd>
+		<Cl>0.354226</Cl>
+
+		<Angle>-123.00</Angle>
+		<Cd>0.718500</Cd>
+		<Cl>0.344368</Cl>
+
+		<Angle>-122.00</Angle>
+		<Cd>0.727966</Cd>
+		<Cl>0.334204</Cl>
+
+		<Angle>-121.00</Angle>
+		<Cd>0.737134</Cd>
+		<Cl>0.323747</Cl>
+
+		<Angle>-120.00</Angle>
+		<Cd>0.746000</Cd>
+		<Cl>0.313005</Cl>
+
+		<Angle>-119.00</Angle>
+		<Cd>0.754556</Cd>
+		<Cl>0.301990</Cl>
+
+		<Angle>-118.00</Angle>
+		<Cd>0.762797</Cd>
+		<Cl>0.290713</Cl>
+
+		<Angle>-117.00</Angle>
+		<Cd>0.770719</Cd>
+		<Cl>0.279184</Cl>
+
+		<Angle>-116.00</Angle>
+		<Cd>0.778317</Cd>
+		<Cl>0.267413</Cl>
+
+		<Angle>-115.00</Angle>
+		<Cd>0.785586</Cd>
+		<Cl>0.255413</Cl>
+
+		<Angle>-114.00</Angle>
+		<Cd>0.792521</Cd>
+		<Cl>0.243193</Cl>
+
+		<Angle>-113.00</Angle>
+		<Cd>0.799118</Cd>
+		<Cl>0.230764</Cl>
+
+		<Angle>-112.00</Angle>
+		<Cd>0.805373</Cd>
+		<Cl>0.218138</Cl>
+
+		<Angle>-111.00</Angle>
+		<Cd>0.811283</Cd>
+		<Cl>0.205324</Cl>
+
+		<Angle>-110.00</Angle>
+		<Cd>0.816844</Cd>
+		<Cl>0.192334</Cl>
+
+		<Angle>-109.00</Angle>
+		<Cd>0.822053</Cd>
+		<Cl>0.179180</Cl>
+
+		<Angle>-108.00</Angle>
+		<Cd>0.826906</Cd>
+		<Cl>0.165871</Cl>
+
+		<Angle>-107.00</Angle>
+		<Cd>0.831400</Cd>
+		<Cl>0.152419</Cl>
+
+		<Angle>-106.00</Angle>
+		<Cd>0.835533</Cd>
+		<Cl>0.138835</Cl>
+
+		<Angle>-105.00</Angle>
+		<Cd>0.839302</Cd>
+		<Cl>0.125130</Cl>
+
+		<Angle>-104.00</Angle>
+		<Cd>0.842705</Cd>
+		<Cl>0.111315</Cl>
+
+		<Angle>-103.00</Angle>
+		<Cd>0.845740</Cd>
+		<Cl>0.097401</Cl>
+
+		<Angle>-102.00</Angle>
+		<Cd>0.848405</Cd>
+		<Cl>0.083399</Cl>
+
+		<Angle>-101.00</Angle>
+		<Cd>0.850698</Cd>
+		<Cl>0.069320</Cl>
+
+		<Angle>-100.00</Angle>
+		<Cd>0.852618</Cd>
+		<Cl>0.055176</Cl>
+
+		<Angle>-99.00</Angle>
+		<Cd>0.854164</Cd>
+		<Cl>0.040977</Cl>
+
+		<Angle>-98.00</Angle>
+		<Cd>0.855334</Cd>
+		<Cl>0.026735</Cl>
+
+		<Angle>-97.00</Angle>
+		<Cd>0.856128</Cd>
+		<Cl>0.012460</Cl>
+
+		<Angle>-96.00</Angle>
+		<Cd>0.856544</Cd>
+		<Cl>-0.001836</Cl>
+
+		<Angle>-95.00</Angle>
+		<Cd>0.856583</Cd>
+		<Cl>-0.016141</Cl>
+
+		<Angle>-94.00</Angle>
+		<Cd>0.856245</Cd>
+		<Cl>-0.030445</Cl>
+
+		<Angle>-93.00</Angle>
+		<Cd>0.855529</Cd>
+		<Cl>-0.044736</Cl>
+
+		<Angle>-92.00</Angle>
+		<Cd>0.854436</Cd>
+		<Cl>-0.059004</Cl>
+
+		<Angle>-91.00</Angle>
+		<Cd>0.852965</Cd>
+		<Cl>-0.073237</Cl>
+
+		<Angle>-90.00</Angle>
+		<Cd>0.851118</Cd>
+		<Cl>-0.087423</Cl>
+
+		<Angle>-89.00</Angle>
+		<Cd>0.848896</Cd>
+		<Cl>-0.101553</Cl>
+
+		<Angle>-88.00</Angle>
+		<Cd>0.846298</Cd>
+		<Cl>-0.115613</Cl>
+
+		<Angle>-87.00</Angle>
+		<Cd>0.843328</Cd>
+		<Cl>-0.129594</Cl>
+
+		<Angle>-86.00</Angle>
+		<Cd>0.839985</Cd>
+		<Cl>-0.143483</Cl>
+
+		<Angle>-85.00</Angle>
+		<Cd>0.836273</Cd>
+		<Cl>-0.157271</Cl>
+
+		<Angle>-84.00</Angle>
+		<Cd>0.832192</Cd>
+		<Cl>-0.170944</Cl>
+
+		<Angle>-83.00</Angle>
+		<Cd>0.827745</Cd>
+		<Cl>-0.184493</Cl>
+
+		<Angle>-82.00</Angle>
+		<Cd>0.822934</Cd>
+		<Cl>-0.197906</Cl>
+
+		<Angle>-81.00</Angle>
+		<Cd>0.817762</Cd>
+		<Cl>-0.211171</Cl>
+
+		<Angle>-80.00</Angle>
+		<Cd>0.812232</Cd>
+		<Cl>-0.224278</Cl>
+
+		<Angle>-79.00</Angle>
+		<Cd>0.806347</Cd>
+		<Cl>-0.237216</Cl>
+
+		<Angle>-78.00</Angle>
+		<Cd>0.800109</Cd>
+		<Cl>-0.249973</Cl>
+
+		<Angle>-77.00</Angle>
+		<Cd>0.793523</Cd>
+		<Cl>-0.262537</Cl>
+
+		<Angle>-76.00</Angle>
+		<Cd>0.786592</Cd>
+		<Cl>-0.274899</Cl>
+
+		<Angle>-75.00</Angle>
+		<Cd>0.779320</Cd>
+		<Cl>-0.287046</Cl>
+
+		<Angle>-74.00</Angle>
+		<Cd>0.771712</Cd>
+		<Cl>-0.298968</Cl>
+
+		<Angle>-73.00</Angle>
+		<Cd>0.763772</Cd>
+		<Cl>-0.310653</Cl>
+
+		<Angle>-72.00</Angle>
+		<Cd>0.755504</Cd>
+		<Cl>-0.322091</Cl>
+
+		<Angle>-71.00</Angle>
+		<Cd>0.746914</Cd>
+		<Cl>-0.333271</Cl>
+
+		<Angle>-70.00</Angle>
+		<Cd>0.738007</Cd>
+		<Cl>-0.344180</Cl>
+
+		<Angle>-69.00</Angle>
+		<Cd>0.728789</Cd>
+		<Cl>-0.354809</Cl>
+
+		<Angle>-68.00</Angle>
+		<Cd>0.719265</Cd>
+		<Cl>-0.365146</Cl>
+
+		<Angle>-67.00</Angle>
+		<Cd>0.709441</Cd>
+		<Cl>-0.375181</Cl>
+
+		<Angle>-66.00</Angle>
+		<Cd>0.699324</Cd>
+		<Cl>-0.384902</Cl>
+
+		<Angle>-65.00</Angle>
+		<Cd>0.688920</Cd>
+		<Cl>-0.394299</Cl>
+
+		<Angle>-64.00</Angle>
+		<Cd>0.678237</Cd>
+		<Cl>-0.403360</Cl>
+
+		<Angle>-63.00</Angle>
+		<Cd>0.667280</Cd>
+		<Cl>-0.412075</Cl>
+
+		<Angle>-62.00</Angle>
+		<Cd>0.656059</Cd>
+		<Cl>-0.420434</Cl>
+
+		<Angle>-61.00</Angle>
+		<Cd>0.644580</Cd>
+		<Cl>-0.428426</Cl>
+
+		<Angle>-60.00</Angle>
+		<Cd>0.632851</Cd>
+		<Cl>-0.436039</Cl>
+
+		<Angle>-59.00</Angle>
+		<Cd>0.620882</Cd>
+		<Cl>-0.443263</Cl>
+
+		<Angle>-58.00</Angle>
+		<Cd>0.608680</Cd>
+		<Cl>-0.450088</Cl>
+
+		<Angle>-57.00</Angle>
+		<Cd>0.596255</Cd>
+		<Cl>-0.456504</Cl>
+
+		<Angle>-56.00</Angle>
+		<Cd>0.583616</Cd>
+		<Cl>-0.462499</Cl>
+
+		<Angle>-55.00</Angle>
+		<Cd>0.570773</Cd>
+		<Cl>-0.468064</Cl>
+
+		<Angle>-54.00</Angle>
+		<Cd>0.557735</Cd>
+		<Cl>-0.473187</Cl>
+
+		<Angle>-53.00</Angle>
+		<Cd>0.544514</Cd>
+		<Cl>-0.477860</Cl>
+
+		<Angle>-52.00</Angle>
+		<Cd>0.531119</Cd>
+		<Cl>-0.482072</Cl>
+
+		<Angle>-51.00</Angle>
+		<Cd>0.517562</Cd>
+		<Cl>-0.485812</Cl>
+
+		<Angle>-50.00</Angle>
+		<Cd>0.503854</Cd>
+		<Cl>-0.489070</Cl>
+
+		<Angle>-49.00</Angle>
+		<Cd>0.490007</Cd>
+		<Cl>-0.491838</Cl>
+
+		<Angle>-48.00</Angle>
+		<Cd>0.476033</Cd>
+		<Cl>-0.494104</Cl>
+
+		<Angle>-47.00</Angle>
+		<Cd>0.461944</Cd>
+		<Cl>-0.495859</Cl>
+
+		<Angle>-46.00</Angle>
+		<Cd>0.447753</Cd>
+		<Cl>-0.497094</Cl>
+
+		<Angle>-45.00</Angle>
+		<Cd>0.433475</Cd>
+		<Cl>-0.497799</Cl>
+
+		<Angle>-44.00</Angle>
+		<Cd>0.419122</Cd>
+		<Cl>-0.497963</Cl>
+
+		<Angle>-43.00</Angle>
+		<Cd>0.404708</Cd>
+		<Cl>-0.497579</Cl>
+
+		<Angle>-42.00</Angle>
+		<Cd>0.390248</Cd>
+		<Cl>-0.496638</Cl>
+
+		<Angle>-41.00</Angle>
+		<Cd>0.375757</Cd>
+		<Cl>-0.495129</Cl>
+
+		<Angle>-40.00</Angle>
+		<Cd>0.361251</Cd>
+		<Cl>-0.493043</Cl>
+
+		<Angle>-39.00</Angle>
+		<Cd>0.346745</Cd>
+		<Cl>-0.490372</Cl>
+
+		<Angle>-38.00</Angle>
+		<Cd>0.332255</Cd>
+		<Cl>-0.487108</Cl>
+
+		<Angle>-37.00</Angle>
+		<Cd>0.317798</Cd>
+		<Cl>-0.483241</Cl>
+
+		<Angle>-36.00</Angle>
+		<Cd>0.303392</Cd>
+		<Cl>-0.478763</Cl>
+
+		<Angle>-35.00</Angle>
+		<Cd>0.289053</Cd>
+		<Cl>-0.473666</Cl>
+
+		<Angle>-34.00</Angle>
+		<Cd>0.274802</Cd>
+		<Cl>-0.467942</Cl>
+
+		<Angle>-33.00</Angle>
+		<Cd>0.260655</Cd>
+		<Cl>-0.461582</Cl>
+
+		<Angle>-32.00</Angle>
+		<Cd>0.246632</Cd>
+		<Cl>-0.454579</Cl>
+
+		<Angle>-31.00</Angle>
+		<Cd>0.232754</Cd>
+		<Cl>-0.446926</Cl>
+
+		<Angle>-30.00</Angle>
+		<Cd>0.219040</Cd>
+		<Cl>-0.438613</Cl>
+
+		<Angle>-29.00</Angle>
+		<Cd>0.205510</Cd>
+		<Cl>-0.429636</Cl>
+
+		<Angle>-28.00</Angle>
+		<Cd>0.192187</Cd>
+		<Cl>-0.419986</Cl>
+
+		<Angle>-27.00</Angle>
+		<Cd>0.179093</Cd>
+		<Cl>-0.409657</Cl>
+
+		<Angle>-26.00</Angle>
+		<Cd>0.166250</Cd>
+		<Cl>-0.398641</Cl>
+
+		<Angle>-25.00</Angle>
+		<Cd>0.153681</Cd>
+		<Cl>-0.386934</Cl>
+
+		<Angle>-24.00</Angle>
+		<Cd>0.141410</Cd>
+		<Cl>-0.374527</Cl>
+
+		<Angle>-23.00</Angle>
+		<Cd>0.129462</Cd>
+		<Cl>-0.361416</Cl>
+
+		<Angle>-22.00</Angle>
+		<Cd>0.117861</Cd>
+		<Cl>-0.347595</Cl>
+
+		<Angle>-21.00</Angle>
+		<Cd>0.106634</Cd>
+		<Cl>-0.333058</Cl>
+
+		<Angle>-20.00</Angle>
+		<Cd>0.095806</Cd>
+		<Cl>-0.317800</Cl>
+
+		<Angle>-19.00</Angle>
+		<Cd>0.090606</Cd>
+		<Cl>-0.292500</Cl>
+
+		<Angle>-18.00</Angle>
+		<Cd>0.085405</Cd>
+		<Cl>-0.275900</Cl>
+
+		<Angle>-17.00</Angle>
+		<Cd>0.080432</Cd>
+		<Cl>-0.265800</Cl>
+
+		<Angle>-16.00</Angle>
+		<Cd>0.075459</Cd>
+		<Cl>-0.274000</Cl>
+
+		<Angle>-15.00</Angle>
+		<Cd>0.070728</Cd>
+		<Cl>-0.273000</Cl>
+
+		<Angle>-14.50</Angle>
+		<Cd>0.065996</Cd>
+		<Cl>-0.253000</Cl>
+
+		<Angle>-14.00</Angle>
+		<Cd>0.061521</Cd>
+		<Cl>-0.235500</Cl>
+
+		<Angle>-13.50</Angle>
+		<Cd>0.057046</Cd>
+		<Cl>-0.229000</Cl>
+
+		<Angle>-13.00</Angle>
+		<Cd>0.052842</Cd>
+		<Cl>-0.230100</Cl>
+
+		<Angle>-12.50</Angle>
+		<Cd>0.048638</Cd>
+		<Cl>-0.238600</Cl>
+
+		<Angle>-12.00</Angle>
+		<Cd>0.044721</Cd>
+		<Cl>-0.267000</Cl>
+
+		<Angle>-11.50</Angle>
+		<Cd>0.040804</Cd>
+		<Cl>-0.319300</Cl>
+
+		<Angle>-11.00</Angle>
+		<Cd>0.037190</Cd>
+		<Cl>-0.352900</Cl>
+
+		<Angle>-10.50</Angle>
+		<Cd>0.033576</Cd>
+		<Cl>-0.313600</Cl>
+
+		<Angle>-10.00</Angle>
+		<Cd>0.030280</Cd>
+		<Cl>-0.305600</Cl>
+
+		<Angle>-9.50</Angle>
+		<Cd>0.026985</Cd>
+		<Cl>-0.318700</Cl>
+
+		<Angle>-9.00</Angle>
+		<Cd>0.024025</Cd>
+		<Cl>-0.443900</Cl>
+
+		<Angle>-8.50</Angle>
+		<Cd>0.021066</Cd>
+		<Cl>-0.465500</Cl>
+
+		<Angle>-8.00</Angle>
+		<Cd>0.018459</Cd>
+		<Cl>-0.528500</Cl>
+
+		<Angle>-7.50</Angle>
+		<Cd>0.015852</Cd>
+		<Cl>-0.597200</Cl>
+
+		<Angle>-7.00</Angle>
+		<Cd>0.013615</Cd>
+		<Cl>-0.602400</Cl>
+
+		<Angle>-6.50</Angle>
+		<Cd>0.011379</Cd>
+		<Cl>-0.590500</Cl>
+
+		<Angle>-6.00</Angle>
+		<Cd>0.009531</Cd>
+		<Cl>-0.588700</Cl>
+
+		<Angle>-5.50</Angle>
+		<Cd>0.007683</Cd>
+		<Cl>-0.573433</Cl>
+
+		<Angle>-5.00</Angle>
+		<Cd>0.006242</Cd>
+		<Cl>-0.558167</Cl>
+
+		<Angle>-4.50</Angle>
+		<Cd>0.004800</Cd>
+		<Cl>-0.542900</Cl>
+
+		<Angle>-4.00</Angle>
+		<Cd>0.003785</Cd>
+		<Cl>-0.544400</Cl>
+
+		<Angle>-3.50</Angle>
+		<Cd>0.002770</Cd>
+		<Cl>-0.496200</Cl>
+
+		<Angle>-3.00</Angle>
+		<Cd>0.002200</Cd>
+		<Cl>-0.207467</Cl>
+
+		<Angle>-2.50</Angle>
+		<Cd>0.001630</Cd>
+		<Cl>0.081267</Cl>
+
+		<Angle>-2.00</Angle>
+		<Cd>0.002232</Cd>
+		<Cl>0.370000</Cl>
+
+		<Angle>-1.50</Angle>
+		<Cd>0.002833</Cd>
+		<Cl>0.486000</Cl>
+
+		<Angle>-1.00</Angle>
+		<Cd>0.003919</Cd>
+		<Cl>0.546400</Cl>
+
+		<Angle>-0.50</Angle>
+		<Cd>0.005005</Cd>
+		<Cl>0.618200</Cl>
+
+		<Angle>0.00</Angle>
+		<Cd>0.006554</Cd>
+		<Cl>0.663700</Cl>
+
+		<Angle>0.50</Angle>
+		<Cd>0.008103</Cd>
+		<Cl>0.733700</Cl>
+
+		<Angle>1.00</Angle>
+		<Cd>0.010092</Cd>
+		<Cl>0.780200</Cl>
+
+		<Angle>1.50</Angle>
+		<Cd>0.012082</Cd>
+		<Cl>0.823300</Cl>
+
+		<Angle>2.00</Angle>
+		<Cd>0.014491</Cd>
+		<Cl>0.885000</Cl>
+
+		<Angle>2.50</Angle>
+		<Cd>0.016900</Cd>
+		<Cl>0.942800</Cl>
+
+		<Angle>3.00</Angle>
+		<Cd>0.019707</Cd>
+		<Cl>0.981400</Cl>
+
+		<Angle>3.50</Angle>
+		<Cd>0.022515</Cd>
+		<Cl>1.018900</Cl>
+
+		<Angle>4.00</Angle>
+		<Cd>0.025701</Cd>
+		<Cl>1.056500</Cl>
+
+		<Angle>4.50</Angle>
+		<Cd>0.028887</Cd>
+		<Cl>1.094500</Cl>
+
+		<Angle>5.00</Angle>
+		<Cd>0.032432</Cd>
+		<Cl>1.124700</Cl>
+
+		<Angle>5.50</Angle>
+		<Cd>0.035977</Cd>
+		<Cl>1.129500</Cl>
+
+		<Angle>6.00</Angle>
+		<Cd>0.039862</Cd>
+		<Cl>1.126400</Cl>
+
+		<Angle>6.50</Angle>
+		<Cd>0.043746</Cd>
+		<Cl>1.113700</Cl>
+
+		<Angle>7.00</Angle>
+		<Cd>0.047952</Cd>
+		<Cl>1.086500</Cl>
+
+		<Angle>7.50</Angle>
+		<Cd>0.052158</Cd>
+		<Cl>1.039300</Cl>
+
+		<Angle>8.00</Angle>
+		<Cd>0.056667</Cd>
+		<Cl>0.951300</Cl>
+
+		<Angle>8.50</Angle>
+		<Cd>0.061176</Cd>
+		<Cl>0.808600</Cl>
+
+		<Angle>9.00</Angle>
+		<Cd>0.065971</Cd>
+		<Cl>0.665900</Cl>
+
+		<Angle>9.50</Angle>
+		<Cd>0.070766</Cd>
+		<Cl>0.684200</Cl>
+
+		<Angle>10.00</Angle>
+		<Cd>0.075829</Cd>
+		<Cl>0.610400</Cl>
+
+		<Angle>10.50</Angle>
+		<Cd>0.080892</Cd>
+		<Cl>0.618400</Cl>
+
+		<Angle>11.00</Angle>
+		<Cd>0.086207</Cd>
+		<Cl>0.644500</Cl>
+
+		<Angle>11.50</Angle>
+		<Cd>0.091522</Cd>
+		<Cl>0.675800</Cl>
+
+		<Angle>12.00</Angle>
+		<Cd>0.097073</Cd>
+		<Cl>0.716000</Cl>
+
+		<Angle>12.50</Angle>
+		<Cd>0.102623</Cd>
+		<Cl>0.731700</Cl>
+
+		<Angle>13.00</Angle>
+		<Cd>0.108394</Cd>
+		<Cl>0.727300</Cl>
+
+		<Angle>13.50</Angle>
+		<Cd>0.114165</Cd>
+		<Cl>0.683200</Cl>
+
+		<Angle>14.00</Angle>
+		<Cd>0.120140</Cd>
+		<Cl>0.700300</Cl>
+
+		<Angle>14.50</Angle>
+		<Cd>0.126115</Cd>
+		<Cl>0.724700</Cl>
+
+		<Angle>15.00</Angle>
+		<Cd>0.132280</Cd>
+		<Cl>0.756100</Cl>
+
+		<Angle>15.50</Angle>
+		<Cd>0.138445</Cd>
+		<Cl>0.795100</Cl>
+
+		<Angle>16.00</Angle>
+		<Cd>0.144785</Cd>
+		<Cl>0.801900</Cl>
+
+		<Angle>16.50</Angle>
+		<Cd>0.151125</Cd>
+		<Cl>0.809400</Cl>
+
+		<Angle>17.00</Angle>
+		<Cd>0.157627</Cd>
+		<Cl>0.809400</Cl>
+
+		<Angle>17.50</Angle>
+		<Cd>0.164128</Cd>
+		<Cl>0.792500</Cl>
+
+		<Angle>18.00</Angle>
+		<Cd>0.170777</Cd>
+		<Cl>0.797900</Cl>
+
+		<Angle>18.50</Angle>
+		<Cd>0.177426</Cd>
+		<Cl>0.812200</Cl>
+
+		<Angle>19.00</Angle>
+		<Cd>0.184208</Cd>
+		<Cl>0.829000</Cl>
+
+		<Angle>19.50</Angle>
+		<Cd>0.190991</Cd>
+		<Cl>0.849100</Cl>
+
+		<Angle>20.00</Angle>
+		<Cd>0.197895</Cd>
+		<Cl>0.874200</Cl>
+
+		<Angle>20.50</Angle>
+		<Cd>0.204800</Cd>
+		<Cl>0.912200</Cl>
+
+		<Angle>21.00</Angle>
+		<Cd>0.211812</Cd>
+		<Cl>0.914800</Cl>
+
+		<Angle>21.50</Angle>
+		<Cd>0.218825</Cd>
+		<Cl>0.916000</Cl>
+
+		<Angle>22.00</Angle>
+		<Cd>0.225934</Cd>
+		<Cl>0.914700</Cl>
+
+		<Angle>22.50</Angle>
+		<Cd>0.233043</Cd>
+		<Cl>0.910000</Cl>
+
+		<Angle>23.00</Angle>
+		<Cd>0.240236</Cd>
+		<Cl>0.918000</Cl>
+
+		<Angle>23.50</Angle>
+		<Cd>0.247430</Cd>
+		<Cl>0.930900</Cl>
+
+		<Angle>24.00</Angle>
+		<Cd>0.254696</Cd>
+		<Cl>0.946400</Cl>
+
+		<Angle>24.50</Angle>
+		<Cd>0.261962</Cd>
+		<Cl>0.967000</Cl>
+
+		<Angle>25.00</Angle>
+		<Cd>0.269290</Cd>
+		<Cl>0.994500</Cl>
+
+		<Angle>25.50</Angle>
+		<Cd>0.276617</Cd>
+		<Cl>0.996800</Cl>
+
+		<Angle>26.00</Angle>
+		<Cd>0.283996</Cd>
+		<Cl>0.995200</Cl>
+
+		<Angle>26.50</Angle>
+		<Cd>0.291375</Cd>
+		<Cl>0.988300</Cl>
+
+		<Angle>27.00</Angle>
+		<Cd>0.298793</Cd>
+		<Cl>0.995400</Cl>
+
+		<Angle>27.50</Angle>
+		<Cd>0.306212</Cd>
+		<Cl>1.019600</Cl>
+
+		<Angle>28.00</Angle>
+		<Cd>0.321109</Cd>
+		<Cl>1.028537</Cl>
+
+		<Angle>28.50</Angle>
+		<Cd>0.336045</Cd>
+		<Cl>1.036041</Cl>
+
+		<Angle>29.00</Angle>
+		<Cd>0.351001</Cd>
+		<Cl>1.042136</Cl>
+
+		<Angle>29.50</Angle>
+		<Cd>0.365959</Cd>
+		<Cl>1.046843</Cl>
+
+		<Angle>30.00</Angle>
+		<Cd>0.380899</Cd>
+		<Cl>1.050183</Cl>
+
+		<Angle>31.00</Angle>
+		<Cd>0.395805</Cd>
+		<Cl>1.052181</Cl>
+
+		<Angle>32.00</Angle>
+		<Cd>0.410658</Cd>
+		<Cl>1.052857</Cl>
+
+		<Angle>33.00</Angle>
+		<Cd>0.425443</Cd>
+		<Cl>1.052238</Cl>
+
+		<Angle>34.00</Angle>
+		<Cd>0.440142</Cd>
+		<Cl>1.050344</Cl>
+
+		<Angle>35.00</Angle>
+		<Cd>0.454741</Cd>
+		<Cl>1.047200</Cl>
+
+		<Angle>36.00</Angle>
+		<Cd>0.469224</Cd>
+		<Cl>1.042830</Cl>
+
+		<Angle>37.00</Angle>
+		<Cd>0.483576</Cd>
+		<Cl>1.037259</Cl>
+
+		<Angle>38.00</Angle>
+		<Cd>0.497783</Cd>
+		<Cl>1.030511</Cl>
+
+		<Angle>39.00</Angle>
+		<Cd>0.511832</Cd>
+		<Cl>1.022612</Cl>
+
+		<Angle>40.00</Angle>
+		<Cd>0.525708</Cd>
+		<Cl>1.013584</Cl>
+
+		<Angle>41.00</Angle>
+		<Cd>0.539400</Cd>
+		<Cl>1.003456</Cl>
+
+		<Angle>42.00</Angle>
+		<Cd>0.552893</Cd>
+		<Cl>0.992250</Cl>
+
+		<Angle>43.00</Angle>
+		<Cd>0.566178</Cd>
+		<Cl>0.979994</Cl>
+
+		<Angle>44.00</Angle>
+		<Cd>0.579241</Cd>
+		<Cl>0.966713</Cl>
+
+		<Angle>45.00</Angle>
+		<Cd>0.592072</Cd>
+		<Cl>0.952433</Cl>
+
+		<Angle>46.00</Angle>
+		<Cd>0.604660</Cd>
+		<Cl>0.937180</Cl>
+
+		<Angle>47.00</Angle>
+		<Cd>0.616993</Cd>
+		<Cl>0.920981</Cl>
+
+		<Angle>48.00</Angle>
+		<Cd>0.629064</Cd>
+		<Cl>0.903862</Cl>
+
+		<Angle>49.00</Angle>
+		<Cd>0.640861</Cd>
+		<Cl>0.885850</Cl>
+
+		<Angle>50.00</Angle>
+		<Cd>0.652376</Cd>
+		<Cl>0.866971</Cl>
+
+		<Angle>51.00</Angle>
+		<Cd>0.663599</Cd>
+		<Cl>0.847253</Cl>
+
+		<Angle>52.00</Angle>
+		<Cd>0.674522</Cd>
+		<Cl>0.826722</Cl>
+
+		<Angle>53.00</Angle>
+		<Cd>0.685137</Cd>
+		<Cl>0.805405</Cl>
+
+		<Angle>54.00</Angle>
+		<Cd>0.695435</Cd>
+		<Cl>0.783331</Cl>
+
+		<Angle>55.00</Angle>
+		<Cd>0.705411</Cd>
+		<Cl>0.760525</Cl>
+
+		<Angle>56.00</Angle>
+		<Cd>0.715055</Cd>
+		<Cl>0.737016</Cl>
+
+		<Angle>57.00</Angle>
+		<Cd>0.724362</Cd>
+		<Cl>0.712831</Cl>
+
+		<Angle>58.00</Angle>
+		<Cd>0.733325</Cd>
+		<Cl>0.687998</Cl>
+
+		<Angle>59.00</Angle>
+		<Cd>0.741938</Cd>
+		<Cl>0.662543</Cl>
+
+		<Angle>60.00</Angle>
+		<Cd>0.750195</Cd>
+		<Cl>0.636496</Cl>
+
+		<Angle>61.00</Angle>
+		<Cd>0.758090</Cd>
+		<Cl>0.609884</Cl>
+
+		<Angle>62.00</Angle>
+		<Cd>0.765618</Cd>
+		<Cl>0.582734</Cl>
+
+		<Angle>63.00</Angle>
+		<Cd>0.772775</Cd>
+		<Cl>0.555074</Cl>
+
+		<Angle>64.00</Angle>
+		<Cd>0.779555</Cd>
+		<Cl>0.526934</Cl>
+
+		<Angle>65.00</Angle>
+		<Cd>0.785955</Cd>
+		<Cl>0.498339</Cl>
+
+		<Angle>66.00</Angle>
+		<Cd>0.791970</Cd>
+		<Cl>0.469320</Cl>
+
+		<Angle>67.00</Angle>
+		<Cd>0.797596</Cd>
+		<Cl>0.439904</Cl>
+
+		<Angle>68.00</Angle>
+		<Cd>0.802830</Cd>
+		<Cl>0.410117</Cl>
+
+		<Angle>69.00</Angle>
+		<Cd>0.807669</Cd>
+		<Cl>0.379990</Cl>
+
+		<Angle>70.00</Angle>
+		<Cd>0.812110</Cd>
+		<Cl>0.349549</Cl>
+
+		<Angle>71.00</Angle>
+		<Cd>0.816150</Cd>
+		<Cl>0.318824</Cl>
+
+		<Angle>72.00</Angle>
+		<Cd>0.819788</Cd>
+		<Cl>0.287842</Cl>
+
+		<Angle>73.00</Angle>
+		<Cd>0.823020</Cd>
+		<Cl>0.256631</Cl>
+
+		<Angle>74.00</Angle>
+		<Cd>0.825845</Cd>
+		<Cl>0.225220</Cl>
+
+		<Angle>75.00</Angle>
+		<Cd>0.828262</Cd>
+		<Cl>0.193638</Cl>
+
+		<Angle>76.00</Angle>
+		<Cd>0.830269</Cd>
+		<Cl>0.161911</Cl>
+
+		<Angle>77.00</Angle>
+		<Cd>0.831865</Cd>
+		<Cl>0.130068</Cl>
+
+		<Angle>78.00</Angle>
+		<Cd>0.833050</Cd>
+		<Cl>0.098138</Cl>
+
+		<Angle>79.00</Angle>
+		<Cd>0.833823</Cd>
+		<Cl>0.066149</Cl>
+
+		<Angle>80.00</Angle>
+		<Cd>0.834183</Cd>
+		<Cl>0.034128</Cl>
+
+		<Angle>81.00</Angle>
+		<Cd>0.834131</Cd>
+		<Cl>0.002104</Cl>
+
+		<Angle>82.00</Angle>
+		<Cd>0.833667</Cd>
+		<Cl>-0.029896</Cl>
+
+		<Angle>83.00</Angle>
+		<Cd>0.832791</Cd>
+		<Cl>-0.061841</Cl>
+
+		<Angle>84.00</Angle>
+		<Cd>0.831505</Cd>
+		<Cl>-0.093706</Cl>
+
+		<Angle>85.00</Angle>
+		<Cd>0.829809</Cd>
+		<Cl>-0.125463</Cl>
+
+		<Angle>86.00</Angle>
+		<Cd>0.827705</Cd>
+		<Cl>-0.157082</Cl>
+
+		<Angle>87.00</Angle>
+		<Cd>0.825194</Cd>
+		<Cl>-0.188536</Cl>
+
+		<Angle>88.00</Angle>
+		<Cd>0.822277</Cd>
+		<Cl>-0.219798</Cl>
+
+		<Angle>89.00</Angle>
+		<Cd>0.818958</Cd>
+		<Cl>-0.250838</Cl>
+
+		<Angle>90.00</Angle>
+		<Cd>0.815238</Cd>
+		<Cl>-0.281630</Cl>
+
+		<Angle>91.00</Angle>
+		<Cd>0.811120</Cd>
+		<Cl>-0.312146</Cl>
+
+		<Angle>92.00</Angle>
+		<Cd>0.806607</Cd>
+		<Cl>-0.342359</Cl>
+
+		<Angle>93.00</Angle>
+		<Cd>0.801700</Cd>
+		<Cl>-0.372239</Cl>
+
+		<Angle>94.00</Angle>
+		<Cd>0.796406</Cd>
+		<Cl>-0.401761</Cl>
+
+		<Angle>95.00</Angle>
+		<Cd>0.790725</Cd>
+		<Cl>-0.430895</Cl>
+
+		<Angle>96.00</Angle>
+		<Cd>0.784663</Cd>
+		<Cl>-0.459615</Cl>
+
+		<Angle>97.00</Angle>
+		<Cd>0.778224</Cd>
+		<Cl>-0.487894</Cl>
+
+		<Angle>98.00</Angle>
+		<Cd>0.771411</Cd>
+		<Cl>-0.515704</Cl>
+
+		<Angle>99.00</Angle>
+		<Cd>0.764230</Cd>
+		<Cl>-0.543018</Cl>
+
+		<Angle>100.00</Angle>
+		<Cd>0.756686</Cd>
+		<Cl>-0.569809</Cl>
+
+		<Angle>101.00</Angle>
+		<Cd>0.748783</Cd>
+		<Cl>-0.596049</Cl>
+
+		<Angle>102.00</Angle>
+		<Cd>0.740527</Cd>
+		<Cl>-0.621711</Cl>
+
+		<Angle>103.00</Angle>
+		<Cd>0.731924</Cd>
+		<Cl>-0.646770</Cl>
+
+		<Angle>104.00</Angle>
+		<Cd>0.722980</Cd>
+		<Cl>-0.671197</Cl>
+
+		<Angle>105.00</Angle>
+		<Cd>0.713700</Cd>
+		<Cl>-0.694966</Cl>
+
+		<Angle>106.00</Angle>
+		<Cd>0.704093</Cd>
+		<Cl>-0.718050</Cl>
+
+		<Angle>107.00</Angle>
+		<Cd>0.694163</Cd>
+		<Cl>-0.740423</Cl>
+
+		<Angle>108.00</Angle>
+		<Cd>0.683920</Cd>
+		<Cl>-0.762059</Cl>
+
+		<Angle>109.00</Angle>
+		<Cd>0.673370</Cd>
+		<Cl>-0.782930</Cl>
+
+		<Angle>110.00</Angle>
+		<Cd>0.662521</Cd>
+		<Cl>-0.803011</Cl>
+
+		<Angle>111.00</Angle>
+		<Cd>0.651381</Cd>
+		<Cl>-0.822276</Cl>
+
+		<Angle>112.00</Angle>
+		<Cd>0.639958</Cd>
+		<Cl>-0.840698</Cl>
+
+		<Angle>113.00</Angle>
+		<Cd>0.628261</Cd>
+		<Cl>-0.858253</Cl>
+
+		<Angle>114.00</Angle>
+		<Cd>0.616300</Cd>
+		<Cl>-0.874913</Cl>
+
+		<Angle>115.00</Angle>
+		<Cd>0.604083</Cd>
+		<Cl>-0.890654</Cl>
+
+		<Angle>116.00</Angle>
+		<Cd>0.591621</Cd>
+		<Cl>-0.905448</Cl>
+
+		<Angle>117.00</Angle>
+		<Cd>0.578923</Cd>
+		<Cl>-0.919273</Cl>
+
+		<Angle>118.00</Angle>
+		<Cd>0.566000</Cd>
+		<Cl>-0.932102</Cl>
+
+		<Angle>119.00</Angle>
+		<Cd>0.552863</Cd>
+		<Cl>-0.943910</Cl>
+
+		<Angle>120.00</Angle>
+		<Cd>0.539522</Cd>
+		<Cl>-0.954673</Cl>
+
+		<Angle>121.00</Angle>
+		<Cd>0.525989</Cd>
+		<Cl>-0.964364</Cl>
+
+		<Angle>122.00</Angle>
+		<Cd>0.512277</Cd>
+		<Cl>-0.972961</Cl>
+
+		<Angle>123.00</Angle>
+		<Cd>0.498397</Cd>
+		<Cl>-0.980438</Cl>
+
+		<Angle>124.00</Angle>
+		<Cd>0.484363</Cd>
+		<Cl>-0.986772</Cl>
+
+		<Angle>125.00</Angle>
+		<Cd>0.470187</Cd>
+		<Cl>-0.991937</Cl>
+
+		<Angle>126.00</Angle>
+		<Cd>0.455882</Cd>
+		<Cl>-0.995912</Cl>
+
+		<Angle>127.00</Angle>
+		<Cd>0.441463</Cd>
+		<Cl>-0.998671</Cl>
+
+		<Angle>128.00</Angle>
+		<Cd>0.426945</Cd>
+		<Cl>-1.000190</Cl>
+
+		<Angle>129.00</Angle>
+		<Cd>0.412342</Cd>
+		<Cl>-1.000449</Cl>
+
+		<Angle>130.00</Angle>
+		<Cd>0.397669</Cd>
+		<Cl>-0.999423</Cl>
+
+		<Angle>131.00</Angle>
+		<Cd>0.382942</Cd>
+		<Cl>-0.997089</Cl>
+
+		<Angle>132.00</Angle>
+		<Cd>0.368177</Cd>
+		<Cl>-0.993425</Cl>
+
+		<Angle>133.00</Angle>
+		<Cd>0.353392</Cd>
+		<Cl>-0.988409</Cl>
+
+		<Angle>134.00</Angle>
+		<Cd>0.338603</Cd>
+		<Cl>-0.982018</Cl>
+
+		<Angle>135.00</Angle>
+		<Cd>0.323829</Cd>
+		<Cl>-0.974232</Cl>
+
+		<Angle>136.00</Angle>
+		<Cd>0.309087</Cd>
+		<Cl>-0.965028</Cl>
+
+		<Angle>137.00</Angle>
+		<Cd>0.294396</Cd>
+		<Cl>-0.954386</Cl>
+
+		<Angle>138.00</Angle>
+		<Cd>0.279776</Cd>
+		<Cl>-0.942284</Cl>
+
+		<Angle>139.00</Angle>
+		<Cd>0.265247</Cd>
+		<Cl>-0.928703</Cl>
+
+		<Angle>140.00</Angle>
+		<Cd>0.250830</Cd>
+		<Cl>-0.913622</Cl>
+
+		<Angle>141.00</Angle>
+		<Cd>0.236546</Cd>
+		<Cl>-0.897021</Cl>	
+
+		<Angle>142.00</Angle>
+		<Cd>0.222416</Cd>
+		<Cl>-0.878882</Cl>
+
+		<Angle>143.00</Angle>
+		<Cd>0.208463</Cd>
+		<Cl>-0.859184</Cl>
+
+		<Angle>144.00</Angle>
+		<Cd>0.194711</Cd>
+		<Cl>-0.837911</Cl>
+
+		<Angle>145.00</Angle>
+		<Cd>0.181183</Cd>
+		<Cl>-0.815043</Cl>
+
+		<Angle>146.00</Angle>
+		<Cd>0.167904</Cd>
+		<Cl>-0.790563</Cl>
+
+		<Angle>147.00</Angle>
+		<Cd>0.154900</Cd>
+		<Cl>-0.764453</Cl>
+
+		<Angle>148.00</Angle>
+		<Cd>0.142196</Cd>
+		<Cl>-0.736698</Cl>
+
+		<Angle>149.00</Angle>
+		<Cd>0.129818</Cd>
+		<Cl>-0.707281</Cl>
+
+		<Angle>150.00</Angle>
+		<Cd>0.117796</Cd>
+		<Cl>-0.676186</Cl>
+
+		<Angle>151.00</Angle>
+		<Cd>0.106157</Cd>
+		<Cl>-0.643399</Cl>
+
+		<Angle>152.00</Angle>
+		<Cd>0.094932</Cd>
+		<Cl>-0.608905</Cl>
+
+		<Angle>153.00</Angle>
+		<Cd>0.084149</Cd>
+		<Cl>-0.572689</Cl>
+
+		<Angle>154.00</Angle>
+		<Cd>0.073840</Cd>
+		<Cl>-0.534741</Cl>
+
+		<Angle>155.00</Angle>
+		<Cd>0.064037</Cd>
+		<Cl>-0.495046</Cl>
+
+		<Angle>156.00</Angle>
+		<Cd>0.056626</Cd>
+		<Cl>-0.519859</Cl>
+
+		<Angle>157.00</Angle>
+		<Cd>0.049718</Cd>
+		<Cl>-0.544670</Cl>
+
+		<Angle>158.00</Angle>
+		<Cd>0.043313</Cd>
+		<Cl>-0.569482</Cl>
+
+		<Angle>159.00</Angle>
+		<Cd>0.037410</Cd>
+		<Cl>-0.594293</Cl>
+
+		<Angle>160.00</Angle>
+		<Cd>0.032010</Cd>
+		<Cl>-0.619105</Cl>
+
+		<Angle>161.00</Angle>
+		<Cd>0.027113</Cd>
+		<Cl>-0.643917</Cl>
+
+		<Angle>162.00</Angle>
+		<Cd>0.022719</Cd>
+		<Cl>-0.668728</Cl>
+
+		<Angle>163.00</Angle>
+		<Cd>0.018827</Cd>
+		<Cl>-0.693540</Cl>
+
+		<Angle>164.00</Angle>
+		<Cd>0.015438</Cd>
+		<Cl>-0.718352</Cl>
+
+		<Angle>165.00</Angle>
+		<Cd>0.012552</Cd>
+		<Cl>-0.743164</Cl>
+
+		<Angle>166.00</Angle>
+		<Cd>0.010169</Cd>
+		<Cl>-0.743164</Cl>
+
+		<Angle>167.00</Angle>
+		<Cd>0.008288</Cd>
+		<Cl>-0.743164</Cl>
+
+		<Angle>168.00</Angle>
+		<Cd>0.006910</Cd>
+		<Cl>-0.663274</Cl>
+
+		<Angle>169.00</Angle>
+		<Cd>0.006036</Cd>
+		<Cl>-0.568520</Cl>
+
+		<Angle>170.00</Angle>
+		<Cd>0.005663</Cd>
+		<Cl>-0.473767</Cl>
+
+		<Angle>171.00</Angle>
+		<Cd>0.005793</Cd>
+		<Cl>-0.379013</Cl>
+
+		<Angle>172.00</Angle>
+		<Cd>0.005924</Cd>
+		<Cl>-0.284260</Cl>
+
+		<Angle>173.00</Angle>
+		<Cd>0.006054</Cd>
+		<Cl>-0.189507</Cl>
+
+		<Angle>174.00</Angle>
+		<Cd>0.006185</Cd>
+		<Cl>-0.094753</Cl>
+
+		<Angle>175.00</Angle>
+		<Cd>0.006315</Cd>
+		<Cl>0.000000</Cl>
+
+		<Angle>176.00</Angle>
+		<Cd>0.006446</Cd>
+		<Cl>0.043561</Cl>
+
+		<Angle>177.00</Angle>
+		<Cd>0.006576</Cd>
+		<Cl>0.087122</Cl>
+
+		<Angle>178.00</Angle>
+		<Cd>0.006707</Cd>
+		<Cl>0.130683</Cl>
+
+		<Angle>179.00</Angle>
+		<Cd>0.006837</Cd>
+		<Cl>0.174245</Cl>
+
+		<Angle>180.00</Angle>
+		<Cd>0.006967</Cd>
+		<Cl>0.217806</Cl>
+	</Polar>
+	
+	</BOOMERANG>

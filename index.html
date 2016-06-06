@@ -1,0 +1,218 @@
+﻿<html>
+	<head>
+		<title>Affiche moi un boomerang </title>
+		<style>
+			body { margin: 0; }
+			canvas { width: 100%; height: 100% }
+		</style>
+	</head>
+	<body>
+		<script type="text/javascript" src="js/three.min.js"></script>
+		<script type="text/javascript" src="js/dat.gui.min.js"></script>
+		<script type="text/javascript" src="js/OrbitAndPanControls.new.js"></script>
+		<script type="text/javascript" src="js/Coordinates.js"></script>
+		<script type="text/javascript" src="js/numeric-1.2.6.js"></script>		
+		<script type="text/javascript" src="js/LoadBoomerangFromFile.js"></script>
+		<script type="text/javascript" src="js/CreateBoomGeom.js"></script>
+		<script type="text/javascript" src="js/CreateEnvironnement.js"></script>
+		<script type="text/javascript" src="js/GuiManagement.js"></script>
+		<script type="text/javascript" src="js/ExtensionJsThree.js"></script>
+		<script type="text/javascript" src="js/TimeIntegration.js"></script>
+		<script type="text/javascript" src="js/ajax.js"></script>		
+		<script type="text/javascript">
+var httpRequest = null;
+
+var camera, scene, renderer;
+var cameraControls;
+var distInitialeCameraBoomerang = new THREE.Vector3( 0, 0, -2 );
+var distCameraBoomerang= distInitialeCameraBoomerang;
+
+var gui;
+var effectController;
+var clock = new THREE.Clock();
+var SimulationTimeRatio=40;
+
+var xmlDoc;
+
+var ground = true;
+var running=false;
+var InitialState = true;   // Flag to know if the boomerang is at its initial state
+
+var positionInitialeBoomerang= new THREE.Vector3(0,1.5,0);
+
+var InitializeT0= true;
+var	realTime=0;
+var realTimeT0=0;
+var	physicalTime=0;
+var physicalTimeT0=0;
+var delta=0;
+
+
+var textRealTime = document.createElement('div');
+var textRotationVelocity = document.createElement('div');
+var textVelocity = document.createElement('div');
+
+function init(){
+	// RENDERER
+	renderer = new THREE.WebGLRenderer( { antialias: true } );
+	renderer.gammaInput = true;
+	renderer.gammaOutput = true;
+	renderer.setSize( window.innerWidth, window.innerHeight );
+	renderer.setClearColor( 0xccccff, 1.0 );
+	//renderer.shadowMapEnabled=true;
+
+
+	// CAMERA
+	//camera = new THREE.PerspectiveCamera( 35, window.innerWidth/window.innerHeight, 1, 4000 );
+	camera = new THREE.PerspectiveCamera( 75, window.innerWidth/window.innerHeight, 0.01, 300 );
+	
+	camera.position.addVectors(positionInitialeBoomerang,distCameraBoomerang);
+
+	
+	// CONTROLS
+	cameraControls = new THREE.OrbitAndPanControls(camera, renderer.domElement);
+	cameraControls.target.copy(positionInitialeBoomerang);
+
+	//TEXTS
+	
+	textRealTime.style.position = 'absolute';
+	//text2.style.zIndex = 1;    // if you still don't see the label, try uncommenting this
+	textRealTime.style.width = 300;
+	textRealTime.style.height = 100;
+	textRealTime.style.top = 20 + 'px';
+	textRealTime.style.left = 20 + 'px';
+	//text2.style.backgroundColor = "blue";	
+	document.body.appendChild(textRealTime);
+
+	textVelocity.style.position = 'absolute';
+	textVelocity.style.width = 300;
+	textVelocity.style.height = 100;
+	textVelocity.style.top = 50 + 'px';
+	textVelocity.style.left = 20 + 'px';
+	document.body.appendChild(textVelocity);
+
+	textRotationVelocity.style.position = 'absolute';
+	textRotationVelocity.style.width = 300;
+	textRotationVelocity.style.height = 100;
+	textRotationVelocity.style.top = 80 + 'px';
+	textRotationVelocity.style.left = 20 + 'px';
+	document.body.appendChild(textRotationVelocity);	
+}		
+
+function fillScene(){			
+	scene = new THREE.Scene();
+	scene.fog = new THREE.Fog( 0xccccff, 40, 60 );	
+	
+	// LIGHTS
+	var light = new THREE.PointLight( 0xffffff, 1.2 );
+	light.position.set( 600, 600, -200 );
+	var lightground = new THREE.PointLight( 0xffffff, 0.8 );
+	lightground.position.set( -600, -600, 200 );
+	scene.add(light);
+	scene.add(lightground);
+	
+	//Load a boomerang from file
+	xmlDoc= new readFile("boomerang/" + effectController.NewBoomerangName + ".xml");
+	
+	//Create boomerang
+	
+	var materialBoomerang = new THREE.MeshLambertMaterial( { color: 0xff6000, wireframe: false} );
+	var boomerang= new CreateBoomerang( materialBoomerang, xmlDoc);
+	boomerang.name="boomerang";
+	boomerang.exactName=effectController.NewBoomerangName;
+	scene.add(boomerang);
+	UpdateBoomerangInitialConditions()
+		
+	drawGround();
+	
+	// Define the current trajectories
+	CreateNewTrajectories(0x0000ff)	
+	UpdateCurrentTrajectories(boomerang);
+		
+	}
+
+function addToDOM(){
+	document.body.appendChild( renderer.domElement );
+}
+
+function animate(){
+	window.requestAnimationFrame(animate);
+	render();
+}
+
+var render = function (){
+	
+	delta = clock.getDelta();
+	cameraControls.update(delta);
+			
+	//var angularSpeed= 360/5;
+	//RotateInPlace(angularSpeed*delta);
+
+	var boomerang = scene.getObjectByName("boomerang")
+
+	var positionBoomerang= new THREE.Vector3(boomerang.matrix.elements[12],boomerang.matrix.elements[13],boomerang.matrix.elements[14]);
+	distCameraBoomerang= camera.position.clone().sub(positionBoomerang);
+
+// La detection de collision ci-dessous doit etre amelioree.	
+	if (positionBoomerang.y<=0) 
+	{running=false;
+	gui.__controllers[0].name("<LEFT><font size=4 color=red>----</font></LEFT>");
+	}
+	
+	if (running) {
+		
+		if (InitializeT0) {
+			realTimeT0=clock.getElapsedTime();
+			physicalTimeT0=physicalTime;
+			InitializeT0=false;
+			}
+		var realTime=clock.getElapsedTime()-realTimeT0;
+		var deltaTToBeIntegrated = realTime/SimulationTimeRatio-(physicalTime-physicalTimeT0);
+		if (deltaTToBeIntegrated>=0)
+			{
+
+			var deltaTIntegration = 0.001;
+			var numberStepIntegration = Math.min(Math.trunc(deltaTToBeIntegrated / deltaTIntegration)+1,100);
+			// L'option ci-dessus est elegante mais elle pose des problemes lors d'aller retour sur les onglets de l'explorateur, deltaTToBeIntegrated peut alors devenir tres grand...
+			//Une autre possibilité est de se contenter de: var numberStepIntegration=1;
+			TimeIntegration(boomerang, numberStepIntegration, deltaTIntegration);	
+			physicalTime += numberStepIntegration*deltaTIntegration;
+
+			UpdateCurrentTrajectories(boomerang);
+		
+			//Option Camera 1
+			//positionBoomerang= new THREE.Vector3(boomerang.matrix.elements[12],boomerang.matrix.elements[13],boomerang.matrix.elements[14]);		
+			//camera.position.copy(positionBoomerang.add(new THREE.Vector3(0,0,2)));
+			
+			//Option Camera 2
+			//positionBoomerang.set(boomerang.matrix.elements[12],boomerang.matrix.elements[13],boomerang.matrix.elements[14]);
+
+			}
+
+		textRealTime.innerHTML = 'Temps réel = ' + physicalTime.toFixed(3) + ' s';
+		textVelocity.innerHTML = 'Vitesse = ' + boomerang.Velocity.length().toFixed(3) + ' m/s';
+		textRotationVelocity.innerHTML = 'Vitesse de rotation= ' + (boomerang.RotationVector.length()/(2*Math.PI)).toFixed(3) + ' tours/s';
+		// La norme d'un vecteur ne depend pas du referentiel. Le vecteur rotation est dans le referentiel tournant...
+		
+				
+	} else
+	{
+	InitializeT0=true;
+	}
+			
+	positionBoomerang.getTranslationFromMatrix4(boomerang.matrix);	
+	camera.position.addVectors(positionBoomerang,distCameraBoomerang);
+	cameraControls.target.copy(positionBoomerang);
+
+	renderer.render(scene, camera);	
+};
+
+init();
+setupGui();
+fillScene();
+addToDOM();
+animate();
+  
+		</script>
+	</body>
+</html>
