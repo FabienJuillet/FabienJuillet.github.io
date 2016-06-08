@@ -9,8 +9,8 @@ function setupGui(){
 		NewSimulationTimeRatio: 1./SimulationTimeRatio*100,
 		NewArrowVisible: false,   // Valeur intiale
 		NewGrass: false,
-		NewBoomerangName: "Challenger",
-		NewCameraView: "Vue suivie de trajectoire",
+		NewBoomerangName: "Equerre",
+		NewCameraView: "Suivie de trajectoire",
 		NewInitialConditionArrows: false,
 		StartStop: function() { //gui.__controllers[0].updateDisplay();
 								//gui.__controllers[0].remove();
